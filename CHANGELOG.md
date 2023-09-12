@@ -14,6 +14,18 @@ refer to the [commit
 history](https://github.com/GoogleCloudPlatform/spring-cloud-gcp/commits/main)
 on GitHub.
 
+## [4.8.0](https://github.com/GoogleCloudPlatform/spring-cloud-gcp/compare/v4.7.2...v4.8.0) (2023-09-12)
+
+
+### Features
+
+* add support for Datastore database name configuration ([#2150](https://github.com/GoogleCloudPlatform/spring-cloud-gcp/issues/2150)) ([dc45fd8](https://github.com/GoogleCloudPlatform/spring-cloud-gcp/commit/dc45fd8df0996ef82d7e869c696b5156acf8d872))
+
+
+### Bug Fixes
+
+* add runtime hints for spanner  ([#2123](https://github.com/GoogleCloudPlatform/spring-cloud-gcp/issues/2123)) ([170948e](https://github.com/GoogleCloudPlatform/spring-cloud-gcp/commit/170948e55dea17aadcb9685ac4b0a56f8c8846b2))
+
 ## [4.7.2](https://github.com/GoogleCloudPlatform/spring-cloud-gcp/compare/v4.7.1...v4.7.2) (2023-08-10)
 
 
