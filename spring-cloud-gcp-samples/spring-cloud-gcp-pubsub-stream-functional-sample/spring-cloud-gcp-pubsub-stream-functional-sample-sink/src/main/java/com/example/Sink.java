@@ -34,12 +34,20 @@ public class Sink {
   private static final Log LOGGER = LogFactory.getLog(Sink.class);
 
   @Bean
-  public Consumer<UserMessage> logUserMessage() {
+  public Consumer<String> logUserMessage1() {
     return userMessage -> {
       LOGGER.info(
           String.format(
-              "New message received from %s: %s at %s",
-              userMessage.getUsername(), userMessage.getBody(), userMessage.getCreatedAt()));
+              "Sub1: New message received > %s:", userMessage));
+    };
+  }
+
+  @Bean
+  public Consumer<String> logUserMessage2() {
+    return userMessage -> {
+      LOGGER.info(
+          String.format(
+              "Sub2: New message received > %s:", userMessage));
     };
   }
 }
